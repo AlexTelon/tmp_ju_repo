@@ -8,16 +8,37 @@ I requrested some sample projects to do to show how git works.
 
 `battleships.py` is what you expecte. Did not have time to finish it during the lecture. But it was fun so I wanted to improve it a bit afterwards.
 
-It now generates a resonable initial board for the computer.
+It now generates a resonable initial hidden board for the computer that you need to guess.
 
-    $ python battleships.py
-    ~~~~~~~~~~
-    XXXX~~~~~~
-    ~~~~~~XXXX
-    ~~X~~~~~~~
-    ~~~~~X~X~~
-    ~~~~~X~X~~
-    ~~~~~~~X~~
-    ~~~~~~~X~~
-    ~~~~~~~X~~
-    ~~~~~~~X~~
+You will **not** have any ships. So it is a one-sided game, you trying to find the computers ships only.
+
+Example how the game looks like:
+
+    You have 1 guesses left
+    Guess a coodinate, eg 5 3 or q to quit
+    4 3
+    hit!
+    O~~~~~~~~~
+    ~O~~~~~O~O
+    ~~O~~~O~O~
+    ~~~O####O~
+    ~~~~O~O~~~
+    ~~~~~O~~~~
+    ~O~~~~O~O~
+    ~~~~~~~O#~
+    ~~~~~~~~#~
+    ~O~~~~~~OO
+    You have 1 guesses left
+    Guess a coodinate, eg 5 3 or q to quit
+    2 7
+    miss!
+    O~~~~~~~~~
+    ~O~~~~~O~O
+    ~~O~~~O~O~
+    ~~~O####O~
+    ~~~~O~O~~~
+    ~~~~~O~~~~
+    ~O~~~~O~O~
+    ~~O~~~~O#~
+    ~~~~~~~~#~
+    ~O~~~~~~OO
