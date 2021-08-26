@@ -56,6 +56,8 @@ while lives > 0:
 
     if hidden_field[y][x] == 'X':
         print('hit!')
+        # some reward for finding stuff, to make the game easier.
+        lives += 2
         user_view[y][x] = '#'
     else:
         print('miss!')
